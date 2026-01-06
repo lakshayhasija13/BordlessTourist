@@ -8,3 +8,5 @@ def get_destination_index(destination):
   return destination_index
 
 print(get_destination_index("Los Angeles, USA"))
+
+print(get_destination_index("Paris, France"))
