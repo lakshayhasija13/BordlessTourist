@@ -11,4 +11,12 @@ print(get_destination_index("Los Angeles, USA"))
 
 print(get_destination_index("Paris, France"))
 
-print(get_destination_index("Hyderabad, India"))
+# print(get_destination_index("Hyderabad, India"))
+
+def get_traveler_location(traveler_destination):
+  traveler_destination = traveler[1]
+  traveler_destination_index = destinations.index(traveler_destination)
+  return traveler_destination_index
+
+test_destination_index = get_traveler_location(test_traveler)
+print(test_destination_index)
